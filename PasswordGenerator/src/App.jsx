@@ -32,7 +32,7 @@ function App() {
    }, [length, Numbers, Symbols, PasswordGenerator])
   return (
     <>
-     <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 bg-gradient-to-br from-orange-400 to-red-500 text-black'>
+     <div className='w-full max-w-md items-justify-center mx-auto shadow-md rounded-lg px-4 py-3 my-40 bg-gradient-to-br from-orange-400 to-red-500 text-black'>
         <h1 className='text-center text-2xl font-bold my-3'>PasswordGenerator</h1>
       <div className='flex shadow rounded-lg overflow-hidden mb-6 text-black bg-gray-400'>
         <input
