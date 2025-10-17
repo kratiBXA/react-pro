@@ -43,7 +43,7 @@ function App() {
             Yellow
           </button>
           <button
-            className="bg-grey-800 text-white rounded-md p-2"
+            className="bg-grey-200 text-black rounded-md p-2"
             onClick={() => setColor("grey")}
           >
             Grey
